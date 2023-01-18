@@ -5,7 +5,4 @@ esbuild.buildSync({
   outfile: "dist/index.js",
   format: "iife",
   bundle: true,
-  define: {
-    global: "self",
-  },
 });
