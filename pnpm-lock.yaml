@@ -4,6 +4,9 @@ patchedDependencies:
   '@ctrl/irc@2.1.0':
     hash: jf4eywzpsmufg67tj3fpgxwdgi
     path: patches/@ctrl__irc@2.1.0.patch
+  b4a@1.6.1:
+    hash: fr4ta77ibyz2skijgsggfq2lxa
+    path: patches/b4a@1.6.1.patch
 
 specifiers:
   '@ctrl/irc': 2.1.0
@@ -361,9 +364,10 @@ packages:
       - debug
     dev: true
 
-  /b4a/1.6.1:
+  /b4a/1.6.1_fr4ta77ibyz2skijgsggfq2lxa:
     resolution: {integrity: sha512-AsKjNhz72yxteo/0EtQEiwkMUgk/tGmycXlbG4g3Ard2/ULtNLUykGOkeK0egmN27h0xMAhb76jYccW+XTBExA==}
     dev: false
+    patched: true
 
   /base32-decode/1.0.0:
     resolution: {integrity: sha512-KNWUX/R7wKenwE/G/qFMzGScOgVntOmbE27vvc6GrniDGYb6a5+qWcuoXl8WIOQL7q0TpK7nZDm1Y04Yi3Yn5g==}
@@ -1066,7 +1070,7 @@ packages:
       '@lumeweb/peer-discovery': git.lumeweb.com/LumeWeb/peer-discovery/d2bd926275103d60fdd3c7c432eae5c278f49261
       '@noble/ed25519': 1.7.1
       '@noble/hashes': 1.1.5
-      b4a: 1.6.1
+      b4a: 1.6.1_fr4ta77ibyz2skijgsggfq2lxa
       json-stringify-deterministic: 1.0.8
     transitivePeerDependencies:
       - supports-color
@@ -1077,5 +1081,5 @@ packages:
     name: '@lumeweb/peer-discovery'
     version: 0.1.0
     dependencies:
-      b4a: 1.6.1
+      b4a: 1.6.1_fr4ta77ibyz2skijgsggfq2lxa
     dev: false

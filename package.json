@@ -36,7 +36,8 @@
     },
     "pnpm": {
         "patchedDependencies": {
-            "@ctrl/irc@2.1.0": "patches/@ctrl__irc@2.1.0.patch"
+            "@ctrl/irc@2.1.0": "patches/@ctrl__irc@2.1.0.patch",
+            "b4a@1.6.1": "patches/b4a@1.6.1.patch"
         }
     }
 }
