@@ -10,6 +10,7 @@
     },
     "dependencies": {
         "@ctrl/irc": "2.1.0",
+        "@lumeweb/peer-discovery-irc": "git+https://git.lumeweb.com/LumeWeb/peer-discovery-irc.git",
         "libkmodule": "^0.2.46",
         "streamx": "^2.13.2"
     },

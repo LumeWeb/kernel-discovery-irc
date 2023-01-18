@@ -7,6 +7,7 @@ patchedDependencies:
 
 specifiers:
   '@ctrl/irc': 2.1.0
+  '@lumeweb/peer-discovery-irc': git+https://git.lumeweb.com/LumeWeb/peer-discovery-irc.git
   '@scure/bip39': ^1.1.0
   '@skynetlabs/skynet-nodejs': ^2.9.0
   '@types/node': ^18.11.18
@@ -25,6 +26,7 @@ specifiers:
 
 dependencies:
   '@ctrl/irc': 2.1.0_jf4eywzpsmufg67tj3fpgxwdgi
+  '@lumeweb/peer-discovery-irc': git.lumeweb.com/LumeWeb/peer-discovery-irc/29c4d5f4f84f4331722b315f6ac5f9fdeea8968c
   libkmodule: 0.2.53
   streamx: 2.13.2
 
@@ -257,9 +259,12 @@ packages:
     dev: true
     optional: true
 
+  /@noble/ed25519/1.7.1:
+    resolution: {integrity: sha512-Rk4SkJFaXZiznFyC/t77Q0NKS4FL7TLJJsVG2V2oiEq3kJVeTdxysEe/yRWSpnWMe808XRDJ+VFh5pt/FN5plw==}
+    dev: false
+
   /@noble/hashes/1.1.5:
     resolution: {integrity: sha512-LTMZiiLc+V4v1Yi16TD6aX2gmtKszNye0pQgbaLqkvhIqP7nVsSaJsWloGQjJfJ8offaoP5GtX3yY5swbcJxxQ==}
-    dev: true
 
   /@scure/base/1.1.1:
     resolution: {integrity: sha512-ZxOhsSyxYwLJj3pLZCefNitxsj093tb2vq90mp2txoYeBqbcjDjqFhyM8eUjq/uFm6zJ+mUuqxlS2FkuSY1MTA==}
@@ -355,6 +360,10 @@ packages:
     transitivePeerDependencies:
       - debug
     dev: true
+
+  /b4a/1.6.1:
+    resolution: {integrity: sha512-AsKjNhz72yxteo/0EtQEiwkMUgk/tGmycXlbG4g3Ard2/ULtNLUykGOkeK0egmN27h0xMAhb76jYccW+XTBExA==}
+    dev: false
 
   /base32-decode/1.0.0:
     resolution: {integrity: sha512-KNWUX/R7wKenwE/G/qFMzGScOgVntOmbE27vvc6GrniDGYb6a5+qWcuoXl8WIOQL7q0TpK7nZDm1Y04Yi3Yn5g==}
@@ -704,6 +713,11 @@ packages:
     resolution: {integrity: sha512-wpM/wi20Tl+3ifTyi0RdDckS4YTD4Lf953mBRrpG8547T7hInHNPEj8+ck4gB8VDcGyeAWFK++Wb/fU1BeavKQ==}
     dev: true
 
+  /json-stringify-deterministic/1.0.8:
+    resolution: {integrity: sha512-rkJID3qeigo3VCrEcxX1333fTBBxW89YrdYcZexMnL/WdB8u0zctyG63e/DpahRJyrWCDhh7IQhiR7u2XEDQ4Q==}
+    engines: {node: '>= 4'}
+    dev: false
+
   /libkmodule/0.2.53:
     resolution: {integrity: sha512-fwMcssu6mwH+xeuUwUFdGDYQgGvwuVs0RMtbBPEYHvPPOBDNbdesPmlax/+XwDn6XiGggg+wSvq7st2m4VbwEw==}
     dependencies:
@@ -1042,3 +1056,26 @@ packages:
   /util-deprecate/1.0.2:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
     dev: true
+
+  git.lumeweb.com/LumeWeb/peer-discovery-irc/29c4d5f4f84f4331722b315f6ac5f9fdeea8968c:
+    resolution: {commit: 29c4d5f4f84f4331722b315f6ac5f9fdeea8968c, repo: https://git.lumeweb.com/LumeWeb/peer-discovery-irc.git, type: git}
+    name: '@lumeweb/peer-discovery-irc'
+    version: 0.1.0
+    dependencies:
+      '@ctrl/irc': 2.1.0_jf4eywzpsmufg67tj3fpgxwdgi
+      '@lumeweb/peer-discovery': git.lumeweb.com/LumeWeb/peer-discovery/d2bd926275103d60fdd3c7c432eae5c278f49261
+      '@noble/ed25519': 1.7.1
+      '@noble/hashes': 1.1.5
+      b4a: 1.6.1
+      json-stringify-deterministic: 1.0.8
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
+
+  git.lumeweb.com/LumeWeb/peer-discovery/d2bd926275103d60fdd3c7c432eae5c278f49261:
+    resolution: {commit: d2bd926275103d60fdd3c7c432eae5c278f49261, repo: https://git.lumeweb.com/LumeWeb/peer-discovery.git, type: git}
+    name: '@lumeweb/peer-discovery'
+    version: 0.1.0
+    dependencies:
+      b4a: 1.6.1
+    dev: false
