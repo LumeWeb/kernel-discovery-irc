@@ -20,7 +20,7 @@ export default class Socket extends Duplex {
 
         if (event === "message") {
           sendEvent = "data";
-          sendData[0] = (args[0] as MessageEvent).data + "\n" as any;
+          sendData[0] = ((args[0] as MessageEvent).data + "\n") as any;
         }
         // @ts-ignore
         return this.emit(sendEvent, ...sendData);
@@ -30,6 +30,10 @@ export default class Socket extends Duplex {
   }
   _write(data: any, cb: Callback) {
     this._ws.send(data);
+    cb();
+  }
+  _destroy(cb: any) {
+    this._ws.close();
     cb();
   }
   setEncoding() {}
