@@ -34,11 +34,6 @@ async function handleDiscover(aq: ActiveQuery): Promise<void> {
     return;
   }
 
-  if (!("pubkey" in aq.callerInput)) {
-    aq.reject("pubkey required");
-    return;
-  }
-
   if (
     "options" in aq.callerInput &&
     typeof aq.callerInput.options !== "object"
