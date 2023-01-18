@@ -1,0 +1,12 @@
+diff --git a/dist/src/irc.js b/dist/src/irc.js
+index fd7a55d6bb09a961921e58e6bff1a7028c61bb47..c96cbca5e904b5ba0312d7ae273e537e66e22fb9 100644
+--- a/dist/src/irc.js
++++ b/dist/src/irc.js
+@@ -9,6 +9,7 @@ import defaultsdeep from 'lodash.defaultsdeep';
+ import { TypedEmitter } from 'tiny-typed-emitter';
+ import { CyclingPingTimer } from './cyclingPingTimer.js';
+ import { parseMessage } from './parseMessage.js';
++import { Buffer } from 'buffer';
+ const log = debug('irc');
+ const lineDelimiter = new RegExp(/\r\n|\r|\n/);
+ const defaultOptions = {
