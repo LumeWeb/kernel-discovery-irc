@@ -47,10 +47,10 @@ async function handleDiscover(aq: ActiveQuery): Promise<void> {
     return;
   }
 
-  const ret = await DiscoveryIRC(
-    aq.callerInput.pubkey,
-    aq.callerInput?.options
-  );
+  const ret = await DiscoveryIRC(aq.callerInput.pubkey, {
+    host: "liberta.casa",
+    ...aq.callerInput?.options,
+  });
 
   aq.respond(ret);
 }
