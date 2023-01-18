@@ -16,9 +16,9 @@ specifiers:
   buffer: ^6.0.3
   cli-progress: ^3.11.2
   crypto-browserify: ^3.12.0
-  esbuild: ^0.17.0
+  esbuild: ^0.17.2
   events: ^3.3.0
-  libkmodule: ^0.2.46
+  libkmodule: ^0.2.53
   read: ^2.0.0
   streamx: ^2.13.2
   string_decoder: ^1.3.0
@@ -26,7 +26,7 @@ specifiers:
 
 dependencies:
   '@ctrl/irc': 2.1.0_jf4eywzpsmufg67tj3fpgxwdgi
-  '@lumeweb/peer-discovery-irc': git.lumeweb.com/LumeWeb/peer-discovery-irc/29c4d5f4f84f4331722b315f6ac5f9fdeea8968c
+  '@lumeweb/peer-discovery-irc': git.lumeweb.com/LumeWeb/peer-discovery-irc/175b9d318989f5d6eb90102a5e6848be798f73ac
   libkmodule: 0.2.53
   streamx: 2.13.2
 
@@ -1057,8 +1057,8 @@ packages:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
     dev: true
 
-  git.lumeweb.com/LumeWeb/peer-discovery-irc/29c4d5f4f84f4331722b315f6ac5f9fdeea8968c:
-    resolution: {commit: 29c4d5f4f84f4331722b315f6ac5f9fdeea8968c, repo: https://git.lumeweb.com/LumeWeb/peer-discovery-irc.git, type: git}
+  git.lumeweb.com/LumeWeb/peer-discovery-irc/175b9d318989f5d6eb90102a5e6848be798f73ac:
+    resolution: {commit: 175b9d318989f5d6eb90102a5e6848be798f73ac, repo: https://git.lumeweb.com/LumeWeb/peer-discovery-irc.git, type: git}
     name: '@lumeweb/peer-discovery-irc'
     version: 0.1.0
     dependencies:

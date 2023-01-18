@@ -11,7 +11,7 @@
     "dependencies": {
         "@ctrl/irc": "2.1.0",
         "@lumeweb/peer-discovery-irc": "git+https://git.lumeweb.com/LumeWeb/peer-discovery-irc.git",
-        "libkmodule": "^0.2.46",
+        "libkmodule": "^0.2.53",
         "streamx": "^2.13.2"
     },
     "devDependencies": {
@@ -23,7 +23,7 @@
         "buffer": "^6.0.3",
         "cli-progress": "^3.11.2",
         "crypto-browserify": "^3.12.0",
-        "esbuild": "^0.17.0",
+        "esbuild": "^0.17.2",
         "events": "^3.3.0",
         "read": "^2.0.0",
         "string_decoder": "^1.3.0",
