@@ -2,21 +2,21 @@ import type { ActiveQuery } from "libkmodule";
 import { addHandler, callModule } from "libkmodule";
 import DiscoveryIRC from "@lumeweb/peer-discovery-irc";
 import { handleMessage } from "libkmodule";
+import { createClient } from "@lumeweb/kernel-peer-discovery-client";
 
 onmessage = handleMessage;
 
-async function handleRegister(aq: ActiveQuery) {
-  let [ret, err] = await callModule(
-    "FAAT5HPzSHOQCbEdxC9R2-_FbMHpTFhAWzumKLWREkGPdQ",
-    "register"
-  );
+const client = createClient();
 
-  if (err) {
-    aq.reject(err);
+async function handleRegister(aq: ActiveQuery) {
+  try {
+    await client.registerSelf();
+  } catch (e) {
+    aq.reject((e as Error).message);
     return;
   }
 
-  aq.respond(ret);
+  aq.respond();
 }
 
 async function handleName(aq: ActiveQuery): Promise<void> {
