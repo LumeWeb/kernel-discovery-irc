@@ -1,7 +1,6 @@
-import type { ActiveQuery } from "libkmodule";
-import { addHandler, callModule } from "libkmodule";
+import type { ActiveQuery } from "@lumeweb/libkernel/module";
+import { addHandler, handleMessage } from "@lumeweb/libkernel/module";
 import DiscoveryIRC from "@lumeweb/peer-discovery-irc";
-import { handleMessage } from "libkmodule";
 import { createClient } from "@lumeweb/kernel-peer-discovery-client";
 
 onmessage = handleMessage;
