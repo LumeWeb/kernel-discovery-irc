@@ -8,14 +8,14 @@
         "semantic-release": "semantic-release"
     },
     "devDependencies": {
-        "@lumeweb/presetter-kernel-module-preset": "^0.1.0-develop.20",
+        "@lumeweb/presetter-kernel-module-preset": "^0.1.0-develop.28",
         "presetter": "*"
     },
     "readme": "ERROR: No README data found!",
     "_id": "@lumeweb/kernel-discovery-irc@0.1.0",
     "dependencies": {
-        "@lumeweb/kernel-peer-discovery-client": "^0.0.2-develop.4",
-        "@lumeweb/libkernel": "^0.1.0-develop.9",
+        "@lumeweb/kernel-peer-discovery-client": "^0.0.2-develop.5",
+        "@lumeweb/libkernel": "^0.1.0-develop.12",
         "@lumeweb/peer-discovery-irc": "^0.0.2-develop.1"
     },
     "repository": {
