@@ -23,10 +23,5 @@
     "repository": {
         "type": "git",
         "url": "gitea@git.lumeweb.com:LumeWeb/kernel-discovery-irc.git"
-    },
-    "browser": {
-        "crypto": false,
-        "net": "./build/net.js",
-        "tls": "./build/net.js"
     }
 }
