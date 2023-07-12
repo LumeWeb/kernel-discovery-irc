@@ -16,7 +16,11 @@ export default defineConfig({
   },
   resolve: {
     dedupe: ["@lumeweb/libportal", "@lumeweb/libweb", "@lumeweb/libkernel"],
-    alias: { tls: "./build/net.js", net: "./build/net.js" },
+    alias: {
+      tls: "./build/net.js",
+      net: "./build/net.js",
+      chardet: "@lumeweb/chardet",
+    },
   },
   plugins: [
     optimizer({
