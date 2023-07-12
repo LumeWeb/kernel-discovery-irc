@@ -14,7 +14,7 @@
     "readme": "ERROR: No README data found!",
     "dependencies": {
         "@lumeweb/chardet": "^1.6.1",
-        "@lumeweb/kernel-peer-discovery-client": "^0.0.2-develop.9",
+        "@lumeweb/kernel-peer-discovery-client": "^0.0.2-develop.10",
         "@lumeweb/libkernel": "^0.1.0-develop.16",
         "@lumeweb/peer-discovery-irc": "^0.0.2-develop.4"
     },

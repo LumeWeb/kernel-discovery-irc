@@ -9,7 +9,7 @@
             "version": "0.0.2-develop.1",
             "dependencies": {
                 "@lumeweb/chardet": "^1.6.1",
-                "@lumeweb/kernel-peer-discovery-client": "^0.0.2-develop.9",
+                "@lumeweb/kernel-peer-discovery-client": "^0.0.2-develop.10",
                 "@lumeweb/libkernel": "^0.1.0-develop.16",
                 "@lumeweb/peer-discovery-irc": "^0.0.2-develop.4"
             },
@@ -2178,34 +2178,14 @@
             }
         },
         "node_modules/@lumeweb/kernel-peer-discovery-client": {
-            "version": "0.0.2-develop.9",
-            "resolved": "https://registry.npmjs.org/@lumeweb/kernel-peer-discovery-client/-/kernel-peer-discovery-client-0.0.2-develop.9.tgz",
-            "integrity": "sha512-Wh6Pr7ZX6+tA7t842TA7aj1T91KpXhJCazOQNE9vMES83ao9XA3tyyjwU+dUZQYL4DSRNQU+3wADM08NOqcNTw==",
+            "version": "0.0.2-develop.10",
+            "resolved": "https://registry.npmjs.org/@lumeweb/kernel-peer-discovery-client/-/kernel-peer-discovery-client-0.0.2-develop.10.tgz",
+            "integrity": "sha512-fLtH6K7KF4aJ0VqobM0Hq86ne3GH3YlFiHnaCM1okL21QhadDqGtWO/jPSIUF2oRbaPMTi286Agz5ci+IgjKQA==",
             "dependencies": {
                 "@hyperswarm/dht-relay": "^0.3.0",
-                "@lumeweb/libkernel": "0.1.0-develop.12",
-                "@lumeweb/libpeerdiscovery": "^0.1.0-develop.1",
+                "@lumeweb/libkernel": "0.1.0-develop.16",
+                "@lumeweb/libpeerdiscovery": "^0.1.0-develop.2",
                 "hyperswarm": "^4.3.7"
-            }
-        },
-        "node_modules/@lumeweb/kernel-peer-discovery-client/node_modules/@lumeweb/libkernel": {
-            "version": "0.1.0-develop.12",
-            "resolved": "https://registry.npmjs.org/@lumeweb/libkernel/-/libkernel-0.1.0-develop.12.tgz",
-            "integrity": "sha512-bcMEyuM3pk7z7mDSiuAR5s4Xl61j4Tvb6GTy+IjN4rGsa7tziKpwPsH+nKYJrWcmrv3uYfgRxF+fSf3wttCzWw==",
-            "dependencies": {
-                "@lumeweb/libweb": "0.2.0-develop.21",
-                "emittery": "^1.0.1"
-            }
-        },
-        "node_modules/@lumeweb/kernel-peer-discovery-client/node_modules/emittery": {
-            "version": "1.0.1",
-            "resolved": "https://registry.npmjs.org/emittery/-/emittery-1.0.1.tgz",
-            "integrity": "sha512-2ID6FdrMD9KDLldGesP6317G78K7km/kMcwItRtVFva7I/cSEOIaLpewaUb+YLXVwdAp3Ctfxh/V5zIl1sj7dQ==",
-            "engines": {
-                "node": ">=14.16"
-            },
-            "funding": {
-                "url": "https://github.com/sindresorhus/emittery?sponsor=1"
             }
         },
         "node_modules/@lumeweb/libkernel": {
@@ -2241,9 +2221,9 @@
             }
         },
         "node_modules/@lumeweb/libpeerdiscovery": {
-            "version": "0.1.0-develop.1",
-            "resolved": "https://registry.npmjs.org/@lumeweb/libpeerdiscovery/-/libpeerdiscovery-0.1.0-develop.1.tgz",
-            "integrity": "sha512-U+Kfl74Xu2kldHQwRT9Z9CCN2Gk9jASqsFEWv/A0dnFSeCgvO5fgCd3INnY6GsXXCo3bdgRv0ZtmWXbrzivjWg==",
+            "version": "0.1.0-develop.2",
+            "resolved": "https://registry.npmjs.org/@lumeweb/libpeerdiscovery/-/libpeerdiscovery-0.1.0-develop.2.tgz",
+            "integrity": "sha512-eOdcFDPTPKBSulCuj5wlSvq/0ooQ4en7Iix1z3rH1YLSgyS+HDAfkYZGoqtB6AwH+rn0UFBvjHlB1Fds/TpEMQ==",
             "dependencies": {
                 "b4a": "^1.6.4"
             }
@@ -2286,6 +2266,7 @@
             "version": "0.2.0-develop.21",
             "resolved": "https://registry.npmjs.org/@lumeweb/libweb/-/libweb-0.2.0-develop.21.tgz",
             "integrity": "sha512-YJLSGPq1TdRzjX1/e+65PJQ5Kzizk+ADskEMesCdONJR5vctP5pRdc16Cpl1bAETsPX2wpBtWCmbI2Rt3mna3A==",
+            "peer": true,
             "dependencies": {
                 "@lumeweb/community-portals": "^0.1.0-develop.6",
                 "@lumeweb/libportal": "^0.2.0-develop.11",
