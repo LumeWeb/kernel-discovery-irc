@@ -1,0 +1,1 @@
+node_modules/presetter/generated/@lumeweb/kernel-discovery-irc/vite.config.js
