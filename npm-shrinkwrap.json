@@ -11,7 +11,7 @@
                 "@lumeweb/chardet": "^1.6.1",
                 "@lumeweb/kernel-peer-discovery-client": "^0.0.2-develop.10",
                 "@lumeweb/libkernel": "^0.1.0-develop.16",
-                "@lumeweb/peer-discovery-irc": "^0.0.2-develop.4"
+                "@lumeweb/peer-discovery-irc": "^0.0.2-develop.6"
             },
             "devDependencies": {
                 "@lumeweb/presetter-kernel-module-preset": "^0.1.0-develop.43",
@@ -2288,9 +2288,9 @@
             }
         },
         "node_modules/@lumeweb/peer-discovery-irc": {
-            "version": "0.0.2-develop.4",
-            "resolved": "https://registry.npmjs.org/@lumeweb/peer-discovery-irc/-/peer-discovery-irc-0.0.2-develop.4.tgz",
-            "integrity": "sha512-Tp5XYxking3IKTiQ/nSTz9Dlc4KZPyVVWPEv23OMvgTk/T3H70cLllCMeqtibU1g99/hqPX92ObWsdRl2hy0qw==",
+            "version": "0.0.2-develop.6",
+            "resolved": "https://registry.npmjs.org/@lumeweb/peer-discovery-irc/-/peer-discovery-irc-0.0.2-develop.6.tgz",
+            "integrity": "sha512-TR09y+Foaxd+qLXzP0ZmA00DQPpzN2E/XPxuNH22w1Dm2a0odyLUly16Pjr/uhxSs/eeRZSEKFpFuBItB02iKQ==",
             "dependencies": {
                 "@ctrl/irc": "^2.1.1",
                 "@lumeweb/libpeerdiscovery": "^0.1.0-develop.1",
