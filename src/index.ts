@@ -41,12 +41,16 @@ async function handleDiscover(aq: ActiveQuery): Promise<void> {
     return;
   }
 
-  const ret = await DiscoveryIRC(aq.callerInput.pubkey, {
-    host: "liberta.casa",
-    ...aq.callerInput?.options,
-  });
+  try {
+    const ret = await DiscoveryIRC(aq.callerInput.pubkey, {
+      host: "liberta.casa",
+      ...aq.callerInput?.options,
+    });
 
-  aq.respond(ret);
+    aq.respond(ret);
+  } catch (e) {
+    aq.reject(e);
+  }
 }
 
 addHandler("register", handleRegister);
