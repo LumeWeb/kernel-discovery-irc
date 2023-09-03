@@ -1,12 +1,12 @@
 {
     "name": "@lumeweb/kernel-discovery-irc",
-    "version": "0.0.2-develop.3",
+    "version": "0.0.2-develop.4",
     "lockfileVersion": 3,
     "requires": true,
     "packages": {
         "": {
             "name": "@lumeweb/kernel-discovery-irc",
-            "version": "0.0.2-develop.3",
+            "version": "0.0.2-develop.4",
             "dependencies": {
                 "@lumeweb/chardet": "^1.6.1",
                 "@lumeweb/kernel-peer-discovery-client": "^0.0.2-develop.15",
