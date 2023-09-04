@@ -1,6 +1,6 @@
 {
     "name": "@lumeweb/kernel-discovery-irc",
-    "version": "0.0.2-develop.4",
+    "version": "0.0.2-develop.5",
     "type": "module",
     "scripts": {
         "prepare": "presetter bootstrap",
